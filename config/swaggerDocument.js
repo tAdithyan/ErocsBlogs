@@ -812,14 +812,6 @@ const swaggerDocument = {
                 "type": "string",
                 "example": "Updated Article Title"
               },
-              "author": {
-                "type": "string",
-                "example": "660eaf9c04d3f985d7d213e3"
-              },
-              "category": {
-                "type": "string",
-                "example": "660eb09104d3f985d7d213e5"
-              },
               "description": {
                 "type": "string",
                 "example": "Updated description of the article"

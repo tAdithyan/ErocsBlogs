@@ -103,12 +103,6 @@ try {
               if(title) {
                 article.title = title;
               }
-              if(author) {
-                article.author = author;
-              }
-              if(category) {
-                article.category = category;
-              }
               if(description) {
                 article.description = description;
               }
@@ -116,6 +110,7 @@ try {
                 res.status(200).json({ message: 'Article updated successfully', article });
 
 } catch (error) {
+  console.log(error);
     res.status(500).json({ message: 'Internal server error', error: error.message });
     
 }  

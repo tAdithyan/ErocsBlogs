@@ -11,6 +11,9 @@ const options = {
     servers: [
       {
         url: `http://localhost:${process.env.PORT}/api`,
+        // url: ` https://erocsblogs.onrender.com/api`,
+
+       
       },
     ],
     components: {
